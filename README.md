@@ -1,15 +1,15 @@
 # Tex File Generator
 
 ## What does it do?
-It basically takes a CSV file of a group of students and creates a a copy of
-the .tex file and it's corresponding PDF file with the students name and id.
+It basically takes a CSV file of student names and IDs and creates a copy of
+the .tex file and it's corresponding PDF file with the students name and id on it.
 
-It then creates two folders: `tex-files\` and `pdf-files\` in whatever
+It also creates two folders: `tex-files\` and `pdf-files\` in whatever
 directory you're running this script and stores the `.tex` and `.PDF` files
 in their corresponding folder. 
 
 **NOTE:** I've only tested this on Ubuntu so I don't know how it would work
-on Windows. I think macOS should be fine too though?
+on Windows. I think macOS should be fine though?
 
 ## How to use it?
 1. Change `file` to be the name of the CSV file you're opening (make sure it's in the same
