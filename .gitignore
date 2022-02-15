@@ -1,0 +1,6 @@
+
+*.csv
+*.tex
+
+pdf-files/
+tex-files/
